@@ -1,0 +1,23 @@
+{
+  "name": "playwright-ecommerce-e2e",
+  "version": "1.0.0",
+  "private": "true",
+  "description": "E2E UI and API test automation framework for QA Automation Labs Shop using Playwright",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "test-automation",
+    "qa",
+    "e-commerce"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "dotenv": "^18.0.10"
+  }
+}
